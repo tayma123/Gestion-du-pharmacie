@@ -83,19 +83,6 @@ public class DocumentService {
         }
 
     }
-    public Document addMedicamentToDocument(String idDocument, Medicament medicament){
-        Document document=documentRepo.findById(idDocument).get();
-        List<Medicament> medicaments=document.getMedicaments();
-        medicaments.add(medicament);
-        document.setMedicaments(medicaments);
-        documentRepo.save(document);
-        return document;
-    }
-    public Document addFournisseurToDocument(String idDocument, Fournisseur fournisseur){
-        Document document=documentRepo.findById(idDocument).get();
-        document.setFournisseur( fournisseur);
 
-        documentRepo.save(document);
-        return document;
-    }
+
 }

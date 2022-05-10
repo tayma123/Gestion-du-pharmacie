@@ -14,8 +14,7 @@ public class Document {
     String adresse;
     String codePostale;
     String ville;
-    Fournisseur fournisseur;
     Date dateDeLivraison;
-    List<Medicament> medicaments;
+
 
 }
