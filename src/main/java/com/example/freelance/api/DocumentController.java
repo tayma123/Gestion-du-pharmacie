@@ -42,17 +42,6 @@ public class DocumentController {
         documentService.deleteDocument(idUser,idDocument);
         return ResponseEntity.status(HttpStatus.OK).body("le document est supprimé avec succée");
     }
-    @PostMapping("/addMedicamentToDocument/{idUser}")
-    public ResponseEntity<Document> addMedicamentToDocument(@RequestBody Medicament medicament, @PathVariable("idUser") String idUser) {
 
-        return ResponseEntity.status(HttpStatus.OK).body(documentService.addMedicamentToDocument(idUser,medicament));
-
-    }
-    @PostMapping("/addFournisseurToDocument/{idUser}")
-    public ResponseEntity<Document> addFournisseurToDocument(@RequestBody Fournisseur fournisseur, @PathVariable("idUser") String idUser) {
-
-        return ResponseEntity.status(HttpStatus.OK).body(documentService.addFournisseurToDocument(idUser,fournisseur));
-
-    }
 
     }
