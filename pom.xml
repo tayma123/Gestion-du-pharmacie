@@ -75,11 +75,11 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-          <url>C:\Users\TAYMA\Desktop\jenkins\dev</url>
+          <url>C:\Users\TAYMA\Desktop\dev</url>
        </repository>
      <snapshotRepository>
         <id>snapshots</id>
-        <url>C:\Users\TAYMA\Desktop\jenkins\did</url>
+        <url>C:\Users\TAYMA\Desktop\did</url>
     </snapshotRepository>
    </distributionManagement>
 
