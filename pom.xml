@@ -46,7 +46,7 @@
 
 	<build>
 		
-   <directory>C:\Users\TAYMA\Desktop</directory>
+   <directory>C:\Users\TAYMA\Desktop\jenkins</directory>
 
 		<plugins>
 			<plugin>
