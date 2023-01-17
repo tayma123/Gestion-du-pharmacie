@@ -50,7 +50,7 @@
 		
    <directory>C:\Users\TAYMA\Desktop\jenkins</directory>
 		
-		<finalName>${project.groupId}/${project.artifactId}-${baseVersion}.${monthlyVersion}.${instanceVersion}</finalName>
+		<finalName>${project.artifactId}-${baseVersion}.${monthlyVersion}.${instanceVersion}</finalName>
 
 		<plugins>
 			<plugin>
