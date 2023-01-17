@@ -77,6 +77,10 @@
          <name>Internal repo</name>
           <url>C:\Users\TAYMA\Desktop\jenkins\dev</url>
        </repository>
+     <snapshotRepository>
+        <id>snapshots</id>
+        <url>C:\Users\TAYMA\Desktop\jenkins\did</url>
+    </snapshotRepository>
    </distributionManagement>
 
 </project>
