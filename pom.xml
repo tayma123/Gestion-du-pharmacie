@@ -16,7 +16,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>8</java.version>
-		<maven.build.timestamp.format>yyMMdd_HHmm</maven.build.timestamp.format>
+		<maven.build.timestamp.format>yyyyMMdd_HHmm</maven.build.timestamp.format>
     <buildNumber>${maven.build.timestamp}</buildNumber>
 		
 		
