@@ -16,8 +16,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>8</java.version>
-		<maven.build.timestamp.format>yyyy-MM-dd_HH-mm</maven.build.timestamp.format>
-    <buildNumber>${maven.build.timestamp}</buildNumber>
+	
 		
 		
 	</properties>
@@ -53,7 +52,7 @@
 		
    <directory>C:\Users\TAYMA\Desktop\jenkins</directory>
 		
-		<finalName>${artifactId}-${version}${buildNumber}</finalName>
+		
 
 		<plugins>
 			<plugin>
