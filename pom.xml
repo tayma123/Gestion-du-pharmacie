@@ -16,7 +16,8 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>8</java.version>
-		<build.number></build.number>
+		<build.number>${random.int}</build.number>
+		
 		
 	</properties>
 	<dependencies>
