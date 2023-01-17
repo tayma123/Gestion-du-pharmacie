@@ -45,6 +45,9 @@
 	</dependencies>
 
 	<build>
+		
+   <directory>C:\Users\TAYMA\Desktop</directory>
+
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
