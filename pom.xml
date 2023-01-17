@@ -16,6 +16,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>8</java.version>
+		<build.number></build.number>
 		
 	</properties>
 	<dependencies>
@@ -50,7 +51,7 @@
 		
    <directory>C:\Users\TAYMA\Desktop\jenkins</directory>
 		
-		<finalName>${project.artifactId}-${baseVersion}.${monthlyVersion}.${instanceVersion}</finalName>
+		<finalName>${artifactId}-${version}${build.number}</finalName>
 
 		<plugins>
 			<plugin>
